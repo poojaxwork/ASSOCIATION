@@ -1,0 +1,14 @@
+class CapitalCity 
+{
+String name;
+float population=4555.474f;
+String famousFor;
+CapitalCity(String name,String famousFor)
+{
+	this.name=name;
+	this.famousFor=famousFor;
+	
+	
+}
+
+}
