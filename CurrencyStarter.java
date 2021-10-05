@@ -1,6 +1,6 @@
 class CurrencyStarter
 {
-public static void main(String[] args)
+public static void main(String[] rbi)
 {
 	Currency currency=new Currency("Rupees",70.98f);
 	currency.displayCurrency();
