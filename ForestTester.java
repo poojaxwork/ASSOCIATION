@@ -32,18 +32,25 @@ System.out.println(fname);
 System.out.println(stat);
 
 System.out.println("***3***");
- State state1=forest.state;
- String name=state1.name;
- int statenu=state1.noofDistricts;
- System.out.println(statenu);
- System.out.println(name);
- System.out.println("***3***");
+ state.capcity=new CapitalCity("Banglore","IT HUB");
+ CapitalCity cit=state.capcity;
+ System.out.println(cit.name);
+ System.out.println(cit.famousFor);
+ System.out.println(cit.population);
+ 
+ 
+ System.out.println("***4***");
    state.capcity=new CapitalCity("Banglore","diversity");
    CapitalCity city=state.capcity;
    System.out.println(city.name);
+   System.out.println(city.famousFor);
 
-//state.ref=new CapitalCity("Banglore","diversity");
-CapitalCity capcity=state.city;
+System.out.println("***5***");
+forest.state=new State("abc",31);
+State ref=forest.state;
+System.out.println(ref.cmname);
+System.out.println(ref.noofDistricts);
+
 
 
 

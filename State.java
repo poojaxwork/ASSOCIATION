@@ -2,8 +2,8 @@ class State
 {
 String name;
 int noofDistricts;
- String cmname="Basavraj Bommai";
-CapitalCity capcity=new CapitalCity();
+ String cmname;
+CapitalCity capcity;
 
 
 State(String cmname,int noofDistricts)
@@ -12,9 +12,11 @@ State(String cmname,int noofDistricts)
 	this.noofDistricts=noofDistricts;
 	
 }
-State()
+State(String name,int noofDistricts,String cmname)
 {
-	
+this.name=name;
+this.noofDistricts=noofDistricts;
+this.cmname=cmname;	
 }
 
 
