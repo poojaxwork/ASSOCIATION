@@ -1,0 +1,10 @@
+class Movietester
+{
+public static void main(String time[])
+{
+MovieTicket movie=new MovieTicket("Dream girl","HPC",78.9f,150,Types.price);
+movie.dispalyDetails();
+
+
+}
+}

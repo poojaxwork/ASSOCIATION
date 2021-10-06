@@ -1,0 +1,27 @@
+class Product
+{
+String name;
+int quant;
+String vendor;
+float price;
+String type;
+void getdisplay()
+{
+System.out.println(this.name);
+System.out.println(this.quant);
+System.out.println(this.vendor);
+System.out.println(this.price);
+
+System.out.println(this.type);
+}
+Product(String name,int quant,String vendor,float price,String type;)
+{
+this.name=name;
+this.quant=quant;
+this.vendor=vendor;
+this.price=price;
+this.type=type;
+}
+
+
+}
