@@ -15,11 +15,16 @@ public static void main(String[] monday) {
 			daos.display();
 			daos.getAppDTOByName("Watsapp");
 			
+	
+	
 			FacebookApplicationDTO fbdtos=new FacebookApplicationDTO("Mark.z berg", "California");
 		InstagramApplicationDTO instadtos=new InstagramApplicationDTO(856956L, "London");
 		
 		ApplicationDAO daos1=new ApplicationDAO();
-		daos1.saveFb(fbdtos);//for
+	
+	
+	
+		daos1.saveFb(fbdtos);
 		daos1.displayFb();
 		
 		ApplicationDAO daos2=new ApplicationDAO();	
