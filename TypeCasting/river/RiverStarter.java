@@ -44,7 +44,10 @@ river[3]=riverref.name;
 river[4]=refKaveri.origin;
 for(int mars=0;mars<river.length;mars++)
 {
-System.out.println(river[mars]);	
+	if(riverref instanceof krishref1 )
+		
+		
+System.out.println();	
 
 }
 
